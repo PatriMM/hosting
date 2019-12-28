@@ -1,4 +1,4 @@
-// Image switcher code
+// Imágenes cambio
 
 let myImage = document.querySelector('img');
 
@@ -15,7 +15,7 @@ myImage.onclick = function() {
 }
 
 
-// Personalized welcome message code
+// Mensaje personalizado
 
 
 let myButton = document.querySelector('button');
@@ -48,7 +48,7 @@ myButton.onclick = function() {
 
 
 
-// El gato desplazándose <3
+// Imagen que se mueve
 
 var catEl = document.getElementById("cat");
 var startTime = new Date().getTime();   
