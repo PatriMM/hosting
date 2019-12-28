@@ -57,8 +57,8 @@ var walkTheReferenciass = function(){
    var newLeft = ((currTime - startTime) / 1000) * 100;
    var newTop = 0//((currTime - startTime) / 1000) * 100;
    if (newLeft > 850){ startTime = currTime};
-   catEl.style.left = newLeft + "px";
-   catEl.style.top = newTop + "px";
+   referenciassEl.style.left = newLeft + "px";
+   referenciassEl.style.top = newTop + "px";
    window.requestAnimationFrame(walkTheReferenciass);
 
 
