@@ -17,7 +17,7 @@ p, li {
 
 
 html {
-  background-color: #00FFFF;
+  background-color: beige;
 }
 
 body {
@@ -62,7 +62,7 @@ h3 {
 }
 
 #referencias {
-  background-color: rgb(237, 197, 237);
+  background-color: aliceblue;
   text-align: center;
   color: rgb(100, 28, 75);
 }
@@ -74,7 +74,7 @@ h3 {
 }
 
 #pedro-te-quiero {
-  background-color: rgb(237, 197, 237);
+  background-color: aliceblue;
   color: rgb(100, 28, 75);
   border: 1px;
   font-family: sans-serif;
