@@ -4,4 +4,4 @@ En esta página tuvimos que crear 3 carpetas: images, styles y scripts; y 3 arch
 Para esta tarea consultamos la siguiente página: https://github.com/mdn/beginner-html-site-scripted, que nos ayudo a completar la nuestra.
 
 
-El enlace a la web creada es el siguiente: 
+El enlace a la web creada es el siguiente: https://patrimm.github.io/hosting/
