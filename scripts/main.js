@@ -50,19 +50,19 @@ myButton.onclick = function() {
 
 // Imagen que se mueve
 
-var catEl = document.getElementById("cat");
+var referenciassEl = document.getElementById("referenciass");
 var startTime = new Date().getTime();   
-var walkTheCat = function(){
+var walkTheReferenciass = function(){
    var currTime = new Date().getTime();
    var newLeft = ((currTime - startTime) / 1000) * 100;
    var newTop = 0//((currTime - startTime) / 1000) * 100;
    if (newLeft > 850){ startTime = currTime};
    catEl.style.left = newLeft + "px";
    catEl.style.top = newTop + "px";
-   window.requestAnimationFrame(walkTheCat);
+   window.requestAnimationFrame(walkTheReferenciass);
 
 
 };
 
 
-walkTheCat();
+walkTheReferenciass();
