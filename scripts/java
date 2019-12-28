@@ -17,12 +17,12 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-  let myName = prompt('Inserta tu apodo. El que más te guste. ;-)');
+  let myName = prompt('Inserta tu nombre. ;-)');
   if(!myName || myName === null) {
     
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Bienvenido a MiVä´s World, ' + myName + '. ¡Disfruta!';
+    myHeading.innerHTML = 'Feliz cumpleaños, ' + myName + '. ¡Disfruta de tu día!';
   }
 }
 
@@ -30,7 +30,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Bienvenido a MiVä´s World, ' + storedName + '. ¡Disfruta!';
+  myHeading.innerHTML = 'Feliz cumpleaños, ' + storedName + '. ¡Disfruta de tu día!';
 }
 
 myButton.onclick = function() {
